@@ -1,4 +1,4 @@
-Console.Write("Select difficulty (Easy, Medium, Hard): ");
+Console.Write("Welcome to Geography Trivia! Select difficulty (Easy, Medium, Hard): ");
 string userDifficulty = Console.ReadLine();
 
 Random random = new Random();
@@ -20,10 +20,10 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
     }
     } else if (randomQuestion == 2)
     {
-    Console.Write("Where am i from?: ");
+    Console.Write("In which continent does Norway reside?: ");
     string userInput = Console.ReadLine();
 
-    if (string.Equals(userInput, "norway", StringComparison.OrdinalIgnoreCase))
+    if (string.Equals(userInput, "europe", StringComparison.OrdinalIgnoreCase))
     {
         Console.WriteLine("Correct!");
     } else 
@@ -32,14 +32,12 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
     }
     }
 
-    Console.WriteLine(randomQuestion);
-
 } else if (string.Equals(userDifficulty, "medium", StringComparison.OrdinalIgnoreCase))
 {
     if (randomQuestion == 1)
     {
-    Console.Write("What is the capital of Sweden?: ");
-    string userInput = Console.ReadLine();
+        Console.Write("What is the capital of Sweden?: ");
+        string userInput = Console.ReadLine();
 
     if (string.Equals(userInput, "stockholm", StringComparison.OrdinalIgnoreCase))
     {
@@ -50,7 +48,16 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
     }
     } else if (randomQuestion == 2)
     {
-        
+        Console.Write("In which continent does Sweden reside?");
+        string userInput = Console.ReadLine();
+
+    if (string.Equals(userInput, "europe", StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine("Correct!");
+    } else 
+    {
+        Console.WriteLine("Incorrect!");
+    }
     }
 
 } else if (string.Equals(userDifficulty, "hard", StringComparison.OrdinalIgnoreCase))
@@ -67,7 +74,20 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
     {
         Console.WriteLine("Incorrect!");
     }
+    } else if (randomQuestion == 2)
+    {
+        Console.Write("In which continent does Brazil reside?");
+        string userInput = Console.ReadLine();
+
+    if (string.Equals(userInput, "south america", StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine("Correct!");
+    } else 
+    {
+        Console.WriteLine("Incorrect!");
     }
+    }
+
 
 } else 
 {
