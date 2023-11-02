@@ -1,8 +1,13 @@
 Console.Write("Select difficulty (Easy, Medium, Hard): ");
 string userDifficulty = Console.ReadLine();
 
+Random random = new Random();
+int randomQuestion = random.Next(1, 3);
+
 if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
 {
+    if (randomQuestion == 1)
+    {
     Console.Write("What is the capital of Norway?: ");
     string userInput = Console.ReadLine();
 
@@ -13,7 +18,8 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
     {
         Console.WriteLine("Incorrect!");
     }
-
+    } else if (randomQuestion == 2)
+    {
     Console.Write("Where am i from?: ");
     string userInput = Console.ReadLine();
 
@@ -24,9 +30,14 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
     {
         Console.WriteLine("Incorrect!");
     }
+    }
+
+    Console.WriteLine(randomQuestion);
 
 } else if (string.Equals(userDifficulty, "medium", StringComparison.OrdinalIgnoreCase))
 {
+    if (randomQuestion == 1)
+    {
     Console.Write("What is the capital of Sweden?: ");
     string userInput = Console.ReadLine();
 
@@ -37,8 +48,15 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
     {
         Console.WriteLine("Incorrect!");
     }
+    } else if (randomQuestion == 2)
+    {
+        
+    }
+
 } else if (string.Equals(userDifficulty, "hard", StringComparison.OrdinalIgnoreCase))
 {
+    if (randomQuestion == 1)
+    {
     Console.Write("What is the capital of Brazil?: ");
     string userInput = Console.ReadLine();
 
@@ -49,6 +67,8 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
     {
         Console.WriteLine("Incorrect!");
     }
+    }
+
 } else 
 {
     Console.WriteLine("Please type either easy, medium or hard!");
