@@ -14,6 +14,17 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
         Console.WriteLine("Incorrect!");
     }
 
+    Console.Write("Where am i from?: ");
+    string userInput = Console.ReadLine();
+
+    if (string.Equals(userInput, "norway", StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine("Correct!");
+    } else 
+    {
+        Console.WriteLine("Incorrect!");
+    }
+
 } else if (string.Equals(userDifficulty, "medium", StringComparison.OrdinalIgnoreCase))
 {
     Console.Write("What is the capital of Sweden?: ");
