@@ -28,5 +28,17 @@ if (string.Equals(userDifficulty, "easy", StringComparison.OrdinalIgnoreCase))
     }
 } else if (string.Equals(userDifficulty, "hard", StringComparison.OrdinalIgnoreCase))
 {
-    
+    Console.Write("What is the capital of Brazil?: ");
+    string userInput = Console.ReadLine();
+
+    if (string.Equals(userInput, "brasilia", StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine("Correct!");
+    } else 
+    {
+        Console.WriteLine("Incorrect!");
+    }
+} else 
+{
+    Console.WriteLine("Please type either easy, medium or hard!");
 }
