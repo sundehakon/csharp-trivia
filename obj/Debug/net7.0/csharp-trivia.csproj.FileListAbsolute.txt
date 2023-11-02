@@ -1,0 +1,14 @@
+/Users/sundehakon/Documents/csharp-trivia/obj/Debug/net7.0/csharp-trivia.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sundehakon/Documents/csharp-trivia/obj/Debug/net7.0/csharp-trivia.AssemblyInfoInputs.cache
+/Users/sundehakon/Documents/csharp-trivia/obj/Debug/net7.0/csharp-trivia.AssemblyInfo.cs
+/Users/sundehakon/Documents/csharp-trivia/obj/Debug/net7.0/csharp-trivia.csproj.CoreCompileInputs.cache
+/Users/sundehakon/Documents/csharp-trivia/bin/Debug/net7.0/csharp-trivia
+/Users/sundehakon/Documents/csharp-trivia/bin/Debug/net7.0/csharp-trivia.deps.json
+/Users/sundehakon/Documents/csharp-trivia/bin/Debug/net7.0/csharp-trivia.runtimeconfig.json
+/Users/sundehakon/Documents/csharp-trivia/bin/Debug/net7.0/csharp-trivia.dll
+/Users/sundehakon/Documents/csharp-trivia/bin/Debug/net7.0/csharp-trivia.pdb
+/Users/sundehakon/Documents/csharp-trivia/obj/Debug/net7.0/csharp-trivia.dll
+/Users/sundehakon/Documents/csharp-trivia/obj/Debug/net7.0/refint/csharp-trivia.dll
+/Users/sundehakon/Documents/csharp-trivia/obj/Debug/net7.0/csharp-trivia.pdb
+/Users/sundehakon/Documents/csharp-trivia/obj/Debug/net7.0/csharp-trivia.genruntimeconfig.cache
+/Users/sundehakon/Documents/csharp-trivia/obj/Debug/net7.0/ref/csharp-trivia.dll
